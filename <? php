@@ -1,0 +1,23 @@
+<? php
+
+$movie='Kill Bill Volume 1';
+
+$age = 10;
+
+$has_a_parent = false;
+
+echo "You are $age years.\n";
+
+if ($age > 18 || (has_a_parent && $age > 13)) {
+	if ($age > 21) {
+		echo "Go to the Drafthouse and get a beer\n"
+	}
+
+	echo 'you can watch $movie\n";
+}
+
+if ($age < 18){
+	echo "you cant watch $movie"
+}
+
+?>
