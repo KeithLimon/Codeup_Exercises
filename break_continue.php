@@ -7,8 +7,6 @@ for ($i = 1; $i <= 100; $i++) {
     echo "^ that is an even number.\n";
 }
 
-
-
 for ($i = 1; $i <= 100; $i++) {
     echo $i . "\n";
     if ($i == 10) {
