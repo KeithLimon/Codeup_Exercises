@@ -1,13 +1,15 @@
 <?php
 // you dont use the same names given in the exapmle!!!!!
-// $item = (EMPTY);
+$item = (EMPTY);
 $item2 = 'words';
-// $array_item = array(1,2,3);
+$array_item = array(1,2,3);
 
 
 
 // Create a function that checks if a variable is set or empty, and display "$variable_name is SET|EMPTY"
-var_dump( unserialize($item2)); 
+// var_dump( unserialize($item2)); 
+
+var_dump (serialize($array_item))
 
 // TEST: If var $item is set, display '$item is SET'
 // //bol(true)
